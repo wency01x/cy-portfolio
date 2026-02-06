@@ -5,7 +5,14 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  // 1. Tell Vite to treat .glb files as static assets
+  assetsInclude: ['**/*.glb'], 
+
+  plugins: [
+    react(), 
+    tailwindcss()
+  ],
+  
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
