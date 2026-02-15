@@ -8,7 +8,7 @@ export default function TechStack() {
   return (
     <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-lg font-bold flex items-center gap-2">⚙️ Tech Stack</h2>
+        <h2 className="text-lg font-bold flex items-center gap-2">Tech Stack</h2>
       </div>
       
       {Object.entries(stacks).map(([key, items]) => (

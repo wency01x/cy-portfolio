@@ -12,7 +12,7 @@ const data = {
 
 export default function Timeline({ title, type }) {
   const items = data[type];
-  const icon = title === "Experience" ? "💼" : "📖";
+  const icon = title === "Experience" 
 
   return (
     <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
