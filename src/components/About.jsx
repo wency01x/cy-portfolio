@@ -12,7 +12,7 @@ export default function About() {
       {/* 2. THE TEXT (Set to z-10 so it stays behind the lanyard) */}
       <div className="relative z-10 pr-32">
         <h2 className="text-lg font-bold flex items-center gap-2 mb-4">
-          👤 About
+          About Me
         </h2>
         <div className="space-y-4 text-gray-600 leading-relaxed text-sm pointer-events-auto">
           <p>
